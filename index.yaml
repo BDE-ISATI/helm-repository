@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   isati-integration-api:
   - apiVersion: v1
-    created: "2021-08-27T00:05:18.6269385+02:00"
+    created: "2021-08-27T01:12:14.9056779+02:00"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami/
@@ -13,9 +13,18 @@ entries:
     urls:
     - https://charts.isati.org/isati-integration-api-1.0.3.tgz
     version: 1.0.3
+  isati-integration-app:
+  - apiVersion: v1
+    created: "2021-08-27T01:12:14.9125663+02:00"
+    description: The Helm chart for the ISATI integration web app
+    digest: e327052c83cd6d6ab86a3e4ef595ae3c9bb902631ce1e877454d8f2cf58d4ff3
+    name: isati-integration-app
+    urls:
+    - https://charts.isati.org/isati-integration-app-1.0.0.tgz
+    version: 1.0.0
   isati-site:
   - apiVersion: v1
-    created: "2021-08-27T00:05:18.7129741+02:00"
+    created: "2021-08-27T01:12:15.0000578+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami/
@@ -27,7 +36,7 @@ entries:
     - https://charts.isati.org/isati-site-2.0.1.tgz
     version: 2.0.1
   - apiVersion: v1
-    created: "2021-08-27T00:05:18.6946072+02:00"
+    created: "2021-08-27T01:12:14.980317+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami/
@@ -39,7 +48,7 @@ entries:
     - https://charts.isati.org/isati-site-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v1
-    created: "2021-08-27T00:05:18.6731584+02:00"
+    created: "2021-08-27T01:12:14.954512+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami/
@@ -51,7 +60,7 @@ entries:
     - https://charts.isati.org/isati-site-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
-    created: "2021-08-27T00:05:18.648299+02:00"
+    created: "2021-08-27T01:12:14.9318097+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami/
@@ -62,4 +71,4 @@ entries:
     urls:
     - https://charts.isati.org/isati-site-1.0.1.tgz
     version: 1.0.1
-generated: "2021-08-27T00:05:18.6104321+02:00"
+generated: "2021-08-27T01:12:14.8720599+02:00"
