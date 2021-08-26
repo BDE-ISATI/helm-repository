@@ -1,8 +1,21 @@
 apiVersion: v1
 entries:
+  isati-integration-api:
+  - apiVersion: v1
+    created: "2021-08-27T00:05:18.6269385+02:00"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami/
+      version: 10.x.x
+    description: The Helm chart for the ISATI integration API
+    digest: 9665dbd6d7655b4cd0e67598a2ea9b9900e2df63053e4833fe225e6fbb1b6199
+    name: isati-integration-api
+    urls:
+    - https://charts.isati.org/isati-integration-api-1.0.3.tgz
+    version: 1.0.3
   isati-site:
   - apiVersion: v1
-    created: "2021-08-23T15:11:42.4752733+02:00"
+    created: "2021-08-27T00:05:18.7129741+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami/
@@ -14,7 +27,7 @@ entries:
     - https://charts.isati.org/isati-site-2.0.1.tgz
     version: 2.0.1
   - apiVersion: v1
-    created: "2021-08-23T15:11:42.4519916+02:00"
+    created: "2021-08-27T00:05:18.6946072+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami/
@@ -26,7 +39,7 @@ entries:
     - https://charts.isati.org/isati-site-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v1
-    created: "2021-08-23T15:11:42.431846+02:00"
+    created: "2021-08-27T00:05:18.6731584+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami/
@@ -38,7 +51,7 @@ entries:
     - https://charts.isati.org/isati-site-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
-    created: "2021-08-23T15:11:42.4116847+02:00"
+    created: "2021-08-27T00:05:18.648299+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami/
@@ -49,4 +62,4 @@ entries:
     urls:
     - https://charts.isati.org/isati-site-1.0.1.tgz
     version: 1.0.1
-generated: "2021-08-23T15:11:42.3899828+02:00"
+generated: "2021-08-27T00:05:18.6104321+02:00"
